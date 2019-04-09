@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-CustomCombinedSample/BlinkID-CustomCombinedSample.iml" filepath="$PROJECT_DIR$/../BlinkID-CustomCombinedSample/BlinkID-CustomCombinedSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-CustomFieldByFieldScanSample/BlinkID-CustomFieldByFieldScanSample.iml" filepath="$PROJECT_DIR$/../BlinkID-CustomFieldByFieldScanSample/BlinkID-CustomFieldByFieldScanSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-CustomUISample/BlinkID-CustomUISample.iml" filepath="$PROJECT_DIR$/../BlinkID-CustomUISample/BlinkID-CustomUISample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-DetectorSample/BlinkID-DetectorSample.iml" filepath="$PROJECT_DIR$/../BlinkID-DetectorSample/BlinkID-DetectorSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-DirectApiSample/BlinkID-DirectApiSample.iml" filepath="$PROJECT_DIR$/../BlinkID-DirectApiSample/BlinkID-DirectApiSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-ImagesSample/BlinkID-ImagesSample.iml" filepath="$PROJECT_DIR$/../BlinkID-ImagesSample/BlinkID-ImagesSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-OverlaySample/BlinkID-OverlaySample.iml" filepath="$PROJECT_DIR$/../BlinkID-OverlaySample/BlinkID-OverlaySample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID-TemplatingSample/BlinkID-TemplatingSample.iml" filepath="$PROJECT_DIR$/../BlinkID-TemplatingSample/BlinkID-TemplatingSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BlinkID-aMinimalSample.iml" filepath="$PROJECT_DIR$/BlinkID-aMinimalSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkIDSample.iml" filepath="$PROJECT_DIR$/../BlinkIDSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../BlinkID_AllRecognizersSample/BlinkID_AllRecognizersSample.iml" filepath="$PROJECT_DIR$/../BlinkID_AllRecognizersSample/BlinkID_AllRecognizersSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LibUtils/LibUtils.iml" filepath="$PROJECT_DIR$/../LibUtils/LibUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From_Scratch.iml" filepath="$PROJECT_DIR$/From_Scratch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibBlinkID/LibBlinkID.iml" filepath="$PROJECT_DIR$/LibBlinkID/LibBlinkID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
