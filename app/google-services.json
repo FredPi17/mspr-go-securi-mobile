@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234816763220",
+    "firebase_url": "https://mspr-java-8b250.firebaseio.com",
+    "project_id": "mspr-java-8b250",
+    "storage_bucket": "mspr-java-8b250.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234816763220:android:70a3eb3ffc5b306d",
+        "android_client_info": {
+          "package_name": "com.gosecruri.mspr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234816763220-3eth02kof4dot7k7v9uqma0hddmtdsm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJLTxrbhW_o6n8eoOlwHWypQHDqY36fCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234816763220-3eth02kof4dot7k7v9uqma0hddmtdsm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
