@@ -6,10 +6,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.microblink.entities.recognizers.blinkid.mrtd.MrtdRecognizer;
-
-import org.w3c.dom.Text;
-
 public class Card_info extends AppCompatActivity {
 
     @Override
@@ -20,12 +16,13 @@ public class Card_info extends AppCompatActivity {
         Intent i = getIntent();
         Bundle result = i.getBundleExtra("cardInfo");
 
-        TextView name = (TextView)findViewById(R.id.Name);
-        TextView prenom = (TextView)findViewById(R.id.Prenom);
-        TextView gender = (TextView)findViewById(R.id.Gender);
-        TextView nationality = (TextView)findViewById(R.id.Nationality);
-        TextView dateBirth = (TextView)findViewById(R.id.DateBirth);
-        TextView documentNumber = (TextView)findViewById(R.id.DocumentNumber);
+        TextView name = findViewById(R.id.Name);
+        TextView prenom = findViewById(R.id.Prenom);
+        TextView gender = findViewById(R.id.Gender);
+        TextView nationality = findViewById(R.id.Nationality);
+        TextView dateBirth = findViewById(R.id.DateBirth);
+        TextView documentNumber = findViewById(R.id.DocumentType);
+        TextView documentType = findViewById(R.id.DocumentType);
 
         name.setText(result.getString("Name"));
         prenom.setText(result.getString("Prenom"));
@@ -33,6 +30,7 @@ public class Card_info extends AppCompatActivity {
         nationality.setText(result.getString("Nationality"));
         dateBirth.setText(result.getString("DateBirth"));
         documentNumber.setText(result.getString("DocumentNumber"));
+        documentType.setText(result.getString("DocumentType"));
 
         Log.i("Nationality", result.getString("Nationality"));
     }

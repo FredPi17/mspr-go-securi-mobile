@@ -8,17 +8,38 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.2'
-        
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.1"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
 
+plugins {
+    id "org.sonarqube" version "2.6"
+}
+apply plugin: "org.sonarqube"
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "MSPR_go_securi_mobile"
+        property "sonar.projectKey", "MSPR_go_securi_mobile"
+        property "sonar.host.url", "http://raspberrysqlserver.ddns.net:9000"
+        property "sonar.language", "java"
+        property "sonar.sources", "src"
+        property "sonar.login", "Fred"
+        property "sonar.password", "fred"
+    }
+}
 allprojects {
     repositories {
         google()
         jcenter()
         
+    }
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
 }
 

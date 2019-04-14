@@ -86,11 +86,12 @@ public class MainActivity extends AppCompatActivity {
         b.putString("DocumentCode", mrtdResult.getMrzResult().getDocumentCode());
         b.putString("Name", mrtdResult.getMrzResult().getPrimaryId());
         b.putString("Prenom", mrtdResult.getMrzResult().getSecondaryId());
-        //b.putString("Gender", mrtdResult.getMrzResult().getGender());
+        b.putString("Gender", mrtdResult.getMrzResult().getGender());
         b.putString("Nationality", mrtdResult.getMrzResult().getNationality());
         b.putString("DocumentNumber", mrtdResult.getMrzResult().getDocumentNumber());
-        b.putString("Gender", mrtdResult.getMrzResult().getMrzText());
-        b.putString("DateBirth", mrtdResult.getMrzResult().getDateOfBirth().toString());
+        b.putString("DateBirth", mrtdResult.getMrzResult().getDateOfBirth().getOriginalDateString());
+        b.putString("DocumentType", mrtdResult.getMrzResult().getDocumentType().toString());
+        b.putString("DateOfExpiry", mrtdResult.getMrzResult().getDateOfExpiry().toString());
 
         i.putExtra("cardInfo",b);
         startActivity(i);
