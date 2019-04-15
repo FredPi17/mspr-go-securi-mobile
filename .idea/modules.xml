@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/From_Scratch.iml" filepath="$PROJECT_DIR$/From_Scratch.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibBlinkID/LibBlinkID.iml" filepath="$PROJECT_DIR$/LibBlinkID/LibBlinkID.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LibBlinkID/LibBlinkID.iml" filepath="$PROJECT_DIR$/LibBlinkID/LibBlinkID.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mspr_go_securi_mobile.iml" filepath="$PROJECT_DIR$/mspr_go_securi_mobile.iml" />
     </modules>
