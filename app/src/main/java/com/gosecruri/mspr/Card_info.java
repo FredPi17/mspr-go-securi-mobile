@@ -19,6 +19,7 @@ public class Card_info extends AppCompatActivity {
         TextView name = findViewById(R.id.Name);
         TextView prenom = findViewById(R.id.Prenom);
 
+
         name.setText(result.getString("Name"));
         prenom.setText(result.getString("Prenom"));
     }

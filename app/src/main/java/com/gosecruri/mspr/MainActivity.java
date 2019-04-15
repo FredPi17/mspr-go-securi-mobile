@@ -145,6 +145,7 @@ public class MainActivity extends AppCompatActivity {
                                                 b.putString("DocumentType", mrtdResult.getMrzResult().getDocumentType().toString());
                                                 b.putString("DateOfExpiry", mrtdResult.getMrzResult().getDateOfExpiry().toString());
 
+                                                i.putExtra("cardInfo", b);
                                                 startActivity(i);
                                                 break;
                                             }
