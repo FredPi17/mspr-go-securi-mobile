@@ -155,9 +155,9 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
-//        if (itsEnd[0]) {
-//            Intent i2 = new Intent(MainActivity.this, ErrorActivity.class);
-//            startActivity(i2);
-//        }
+        if (itsEnd[0]) {
+            Intent i2 = new Intent(MainActivity.this, ErrorActivity.class);
+            startActivity(i2);
+        }
     }
 }
